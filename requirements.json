@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "要件定義",
+  "description": "システム要件定義のルート",
+  "type": "object",
+  "properties": {
+    "機能要件": {
+      "$ref": "./機能要件.json"
+    },
+    "非機能要件": {
+      "$ref": "./非機能要件.json"
+    }
+  }
+}
